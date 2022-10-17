@@ -3,7 +3,7 @@
 
 # ##Perspective API Exploration##
 # 
-# Below, I will be analyzing a data dataset of Wikipedia comments made available by Jigsaw, a subsidiary of Google that created the Perspective tool. This dataset includes a unique comment id, the text of the comment, and a series of binary labels applied by human raters: "toxic," "severe_toxic," "obscene," "threat," "insult," and "identity_hate" + an appended "score" column, which represents the toxicity score assigned to the comment text by the live version of the Perspective API. The data is available under a CC0 license.
+# Below, I will be analyzing a dataset of Wikipedia comments made available by Jigsaw, a subsidiary of Google that created the Perspective tool. This dataset includes a unique comment id, the text of the comment, and a series of binary labels applied by human raters: "toxic," "severe_toxic," "obscene," "threat," "insult," and "identity_hate" + an appended "score" column, which represents the toxicity score assigned to the comment text by the live version of the Perspective API. The data is available under a CC0 license.
 # 
 # My hypothesis is that the Perspective API will make more mistakes in classifying comments as toxic if they contain more Internet slang acronyms, such as 'lol', 'lmao', 'lmfao', 'wth','wtf', 'jk', 'idk', 'smh', 'ikr', and 'tbh'.
 
